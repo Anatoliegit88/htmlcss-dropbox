@@ -10,19 +10,21 @@ html {
 
 .header {
   display: flex;
+  justify-content: space-between;
+
+  padding: 1em;
+  align-items: center;
 }
 
 .header-left {
   display: flex;
-  width: 100%;
-  height: 3em;
-  background-color: lightcyan;
+  height: 2em;
   align-items: center;
   padding-left: 0.7em;
-  font-size: small;
+  font-size: normal;
 }
 .header-right {
-  display: flex-end;
+  display: flex;
 }
 li {
   text-decoration: none;
@@ -31,19 +33,22 @@ li {
 
 .nav {
   display: flex;
+  padding: 1em;
   justify-content: space-between;
 }
 
-/* .header-right {
-  flex-direction: column;
-  align-items: center;
-  padding-right: 0.7em;
-  font-size: small;
-} */
-/* .txt-header {
-  padding: 1em;
+.container {
+  background-color: lightcyan;
 }
-.txt-header-right {
-  display: flex-end;
-  margin-left: 5em;
-} */
+
+.flex-container {
+  width: 80%;
+  display: flex;
+}
+.title {
+  text-align: center;
+}
+
+.jumbo {
+  width: 100%;
+}
