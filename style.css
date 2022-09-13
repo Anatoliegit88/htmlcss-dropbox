@@ -7,6 +7,7 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 /* Header */
 .header {
   display: flex;
@@ -39,6 +40,7 @@ li {
 /* Hero */
 .container-jumbotron {
   background-color: lightcyan;
+  margin-bottom: 6em;
 }
 
 .title {
@@ -78,16 +80,64 @@ li {
   width: calc(100% / 3);
   padding: 1em;
   display: flex;
+  justify-content: space-between;
 }
 
 .plan-type {
   border: 1px solid lightgray;
+  padding: 0.7em;
 }
 
 .type {
   border-bottom: 1px solid lightgray;
   text-align: center;
   padding: 0.2em;
+}
+.plan-section {
+  margin-top: 6em;
+}
+/* Enterprise */
+.container-user {
+  border: 1px solid lightgray;
+  height: 2em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.container-enterprise {
+  border: 1px solid lightgray;
+  display: flex;
+  padding: 1em;
+  height: 12em;
+}
+.div-left {
+  width: 70%;
+}
+
+.div-right {
+  width: 30%;
+}
+/* Partnership */
+.partner-img {
+  width: 100%;
+}
+.partner {
+  width: 50%;
+}
+.partner-text {
+  width: 50%;
+  padding-left: 5em;
+}
+.partnership {
+  display: flex;
+  margin-top: 10em;
+}
+.find {
+  border: 1px solid dimgray;
+  height: 4em;
+  width: 10em;
+  text-align: center;
+  padding: 1em;
 }
 
 /* /Main */
