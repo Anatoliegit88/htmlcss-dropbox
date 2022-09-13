@@ -37,7 +37,7 @@ li {
 /* /Header */
 
 /* Hero */
-.container {
+.container-jumbotron {
   background-color: lightcyan;
 }
 
@@ -66,5 +66,28 @@ li {
 .img-div {
   width: 70%;
 }
-
 /* /Hero */
+
+/* Main */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.col {
+  width: calc(100% / 3);
+  padding: 1em;
+  display: flex;
+}
+
+.plan-type {
+  border: 1px solid lightgray;
+}
+
+.type {
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+  padding: 0.2em;
+}
+
+/* /Main */
