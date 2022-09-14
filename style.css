@@ -177,6 +177,7 @@ li {
   border: 1px solid black;
   height: 20em;
   display: flex;
+  max-width: 1200px;
 }
 
 .container-1 {
@@ -206,14 +207,13 @@ li {
 }
 
 .brand {
-  width: 10em;
-  height: 10em;
+  width: calc(100% / 2);
+  /* height: 10em; */
   background-color: lightgreen;
   border: 1px solid black;
   background-image: url(/img/designit.svg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 /* /Main */
