@@ -78,7 +78,7 @@ li {
 
 .col {
   width: calc(100% / 3);
-  padding: 1em;
+  /* padding: 1em; */
   display: flex;
   justify-content: space-between;
 }
@@ -138,6 +138,21 @@ li {
   width: 10em;
   text-align: center;
   padding: 1em;
+}
+/* Partnership */
+
+/* Operation-business */
+.more-operation {
+  width: calc(100% / 3);
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partner-img-business {
+  width: 100%;
 }
 
 /* /Main */
