@@ -60,6 +60,8 @@ li {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .parag {
@@ -143,16 +145,75 @@ li {
 
 /* Operation-business */
 .more-operation {
-  width: calc(100% / 3);
-  background-color: aqua;
-  border: 1px solid black;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  width: calc(100% / 3 - 1em);
+  padding: 1em;
+  margin-bottom: 1.5em;
 }
 
 .partner-img-business {
   width: 100%;
+}
+
+.user-numbers {
+  height: 20em;
+  padding: 8em 0;
+}
+
+.user-pad {
+  margin-bottom: 1em;
+  width: 50%;
+}
+
+.title-busines {
+  margin-top: 5em;
+  text-align: left;
+}
+
+/* Container-Brand */
+.container-companies {
+  /* width: calc(100% / 3); */
+  width: 100%;
+  background-color: aqua;
+  border: 1px solid black;
+  height: 20em;
+  display: flex;
+}
+
+.container-1 {
+  display: flex;
+  width: calc(100% / 3);
+  flex-wrap: wrap;
+  height: 20em;
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.container-2 {
+  width: calc(100% / 3);
+
+  height: 20em;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.container-3 {
+  width: calc(100% / 3);
+  flex-wrap: wrap;
+  display: flex;
+  height: 20em;
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.brand {
+  width: 10em;
+  height: 10em;
+  background-color: lightgreen;
+  border: 1px solid black;
+  background-image: url(/img/designit.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* /Main */
