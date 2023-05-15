@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dropbox</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- header -->
@@ -27,6 +25,7 @@
             <li>Supporto</li>
             <li>Contatta l'ufficio vendite</li>
             <li>Accedi</li>
+            <li class="cta">Inizia</li>
           </ul>
         </div>
       </div>
@@ -36,168 +35,183 @@
     <!-- main -->
     <main>
       <!-- Container-jumbotron -->
-      <div class="container-jumbotron">
-        <h1 class="title">
-          Tutto ciò che ti serve per il lavoro, in un unico posto
-        </h1>
-        <div class="container-text-flex">
-          <div class="flex-container">
-            <div class="parag">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-                numquam iste mollitia id ea exercitationem ducimus ratione vitae
-                doloribus voluptatibus! Ullam exercitationem beatae iusto
-                blanditiis, expedita sed et explicabo obcaecati, eveniet nostrum
-                hic omnis officiis odit numquam voluptatem! Numquam, explicabo
-                ipsam!
-              </p>
-              <a href="">Inizia la tua prova gratuita</a>
-              <p>Anulla in qualsiasi momento</p>
+      <div class="container-jumbotron-big">
+        <div class="container-jumbotron">
+          <h1 class="title">
+            Tutto ciò che ti serve per il lavoro, in un unico posto
+          </h1>
+          
+            <div class="flex-container">
+            
+                <div class="parag">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                    numquam iste mollitia id ea exercitationem ducimus ratione vitae
+                    doloribus voluptatibus! Ullam exercitationem beatae iusto
+                    blanditiis, expedita sed et explicabo obcaecati!
+                  </p>
+                 <div><a class="a" href="">Inizia la tua prova gratuita</a></div> 
+                  <p>Anulla in qualsiasi momento</p>
+                  <i class="fa-solid fa-arrow-down fa-3x mb"></i>
+                </div>
+                <div class="img-div">
+                  <img class="jumbo" src="img/jumbo.png" alt="" />
+                </div>
+              </div>
             </div>
-            <div class="img-div">
-              <img class="jumbo" src="img/jumbo.png" alt="" />
-            </div>
-          </div>
         </div>
-      </div>
       <!-- /Container-jumbotron -->
 
       <!-- Plan-section -->
-      <div class="container">
-        <section id="plan-section">
+      <div class="container mt">
+        <section class="plan-section">
           <h2>Trova il bussines che fa per te</h2>
-          <input type="radio" name="" id="mensile" />
-          <label for="mensile">Fatturazione mensile</label>
-          <input type="radio" name="" id="annuale" />
-          <label for="annuale">Fatturazione annuale</label>
+          <div class="bill">
+            <input type="radio" name="" id="mensile" />
+            <label for="mensile">Fatturazione mensile</label>
+            <input type="radio" name="" id="annuale" />
+            <label for="annuale">Fatturazione annuale</label>
+          </div>
           <!-- /Plan-section -->
 
-          <!-- Grid -->
-          <div class="flex-container">
-            <div class="col">
-              <!-- /Grid -->
-
-              <!-- Card -->
-              <article class="plan-type">
-                <div class="type">Singolo</div>
-                <h3>Professional</h3>
-                <h4>&euro; 12.00</h4>
-                <p>/mese</p>
-                <div class="user"><i class="fa-solid fa-user">1 utente</i></div>
-                <div class="archive">
-                  <i class="fa-solid fa-folder"
-                    >5 TB di spazio di archivazione sicuro</i
-                  ></div>
-                  <div class="share">
-                    <i class="fa-solid fa-share-nodes"
-                      >Funzioni di produttività premium e condivisione di file
-                      semplice e sicuro</i
-                    ></div>
-
-                    <a href="">Prova gratis per 30 giorni</a>
+          <!-- Container-plan -->
+          <div class="container-plan">
+            <!-- Col -->
+            <div class="col-new">
+              <div class="type">
+                <p><i class="fa-solid fa-user"></i>  Singolo</p>
+              </div>
+              <div class="plan-type">
+                 <h4>Professional</h4>
+                  <strong><p>&euro; 12.00</p></strong> 
+                  <p>/mese</p>
+               </div>
+               <div class="users">
+                <p><i class="fa-solid fa-user"></i>1 utente</p>
+                <p><i class="fa-solid fa-folder"
+                  ></i> 5 TB di spazio di archivazione sicuro
+                </p>
+                <p><i class="fa-solid fa-share-nodes"
+                  ></i> Funzioni di produttività premium e condivisione di file
+                  semplice e sicuro
+                </p>
+               </div>
+               <div class="try-buy">
+                <a class="a" href="">Prova gratis per 30 giorni</a>
+                <p>oppure aquista ora</p>
+                <hr class="hr">
+               </div>
+               <div class="points-plan">
+                <strong><p>Punti Salienti de Piano</p></strong>
+                <p><i class="fa-solid fa-check"></i> Invia fino a 100 GB con
+                  Dropbox Transfer</p>
+                <p><i class="fa-solid fa-check"></i> Cartelle offline su
+                  dispositivi mobili</p>
+               </div>
+              </div>
+              <div class="col-new">
+                <div class="type">
+                  <p><i class="fa-solid fa-users"></i> Team</p>
+                </div>
+                 <div class="plan-type">
+                    <h4>Professional</h4>
+                    <strong><p>&euro; 12.00</p></strong> 
+                    <p>/mese</p>
+                 </div>
+                 <div class="users">
+                  <p><i class="fa-solid fa-user"></i>1 utente</p>
+                  <p><i class="fa-solid fa-folder"
+                    ></i> 5 TB di spazio di archivazione sicuro
+                  </p>
+                  <p><i class="fa-solid fa-share-nodes"
+                    ></i> Funzioni di produttività premium e condivisione di file
+                    semplice e sicuro
+                  </p>
+                 </div>
+                 <div class="try-buy">
+                  <a class="a" href="">Prova gratis per 30 giorni</a>
+                  <p>oppure aquista ora</p>
+                  <hr class="hr">
+                 </div>
+                 <div class="points-plan">
+                  <strong><p>Punti Salienti de Piano</p></strong>
+                  <p><i class="fa-solid fa-check"></i> Invia fino a 100 GB con
+                    Dropbox Transfer</p>
+                  <p><i class="fa-solid fa-check"></i> Cartelle offline su
+                    dispositivi mobili</p>
+                    <p><i class="fa-solid fa-check"></i> Invia fino a 100 GB con
+                      Dropbox Transfer</p>
+                    <p><i class="fa-solid fa-check"></i> Cartelle offline su
+                      dispositivi mobili</p>
+                      <p><i class="fa-solid fa-check"></i> Cartelle offline su
+                        dispositivi mobili</p>
+                 </div>
+                </div>
+                <div class="col-new">
+                  <div class="type">
+                    <p><i class="fa-solid fa-building"></i> Azienda</p>
+                  </div>
+                   <div class="plan-type">
+                      <h4>Professional</h4>
+                      <strong><p>&euro; 12.00</p></strong> 
+                      <p>/mese</p>
+                   </div>
+                   <div class="users">
+                    <p><i class="fa-solid fa-user"></i>1 utente</p>
+                    <p><i class="fa-solid fa-folder"
+                      ></i> 5 TB di spazio di archivazione sicuro
+                    </p>
+                    <p><i class="fa-solid fa-share-nodes"
+                      ></i> Funzioni di produttività premium e condivisione di file
+                      semplice e sicuro
+                    </p>
+                   </div>
+                   <div class="try-buy">
+                    <a class="a" href="">Prova gratis per 30 giorni</a>
                     <p>oppure aquista ora</p>
-                    <hr />
-                    <h4>Punti Salienti del piano</h4>
-                    <p>
-                      <i class="fa-solid fa-check"></i>Invia fino a 100 GB con
-                      Dropbox Transfer
-                    </p>
-                    <p>
-                      <i class="fa-solid fa-check"></i>Cartelle online su
-                      dispositivi mobili
-                    </p>
-              </article>
+                    <hr class="hr">
+                   </div>
+                   <div class="points-plan">
+                    <strong><p>Punti Salienti de Piano</p></strong>
+                    <p><i class="fa-solid fa-check"></i> Invia fino a 100 GB con
+                      Dropbox Transfer</p>
+                    <p><i class="fa-solid fa-check"></i> Cartelle offline su
+                      dispositivi mobili</p>
+                      <p><i class="fa-solid fa-check"></i> Cartelle offline su
+                        dispositivi mobili</p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </section> 
           </div>
-          <div class="col">
-            <!-- Card -->
-            <article class="plan-type">
-              <div class="type">Singolo</div>
-              <h3>Professional</h3>
-              <h4>&euro; 12.00</h4>
-              <p>/mese</p>
-              <div class="user"><i class="fa-solid fa-user">1 utente</i></div>
-              <div class="archive">
-                <i class="fa-solid fa-folder"
-                  >5 TB di spazio di archivazione sicuro</i
-                ></div>
-                <div class="share">
-                  <i class="fa-solid fa-share-nodes"
-                    >Funzioni di produttività premium e condivisione di file
-                    semplice e sicuro</i
-                  ></div>
-
-                  <a href="">Prova gratis per 30 giorni</a>
-                  <p>oppure aquista ora</p>
-                  <hr />
-                  <h4>Punti Salienti del piano</h4>
-                  <p>
-                    <i class="fa-solid fa-check"></i>Invia fino a 100 GB con
-                    Dropbox Transfer
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-check"></i>Cartelle online su
-                    dispositivi mobili
-                  </p>
-            </article>
-        </div>
-          <div class="col">
-            <!-- Card -->
-            <article class="plan-type">
-              <div class="type">Singolo</div>
-              <h3>Professional</h3>
-              <h4>&euro; 12.00</h4>
-              <p>/mese</p>
-              <div class="user"><i class="fa-solid fa-user">1 utente</i></div>
-              <div class="archive">
-                <i class="fa-solid fa-folder"
-                  >5 TB di spazio di archivazione sicuro</i
-                ></div>
-                <div class="share">
-                  <i class="fa-solid fa-share-nodes"
-                    >Funzioni di produttività premium e condivisione di file
-                    semplice e sicuro</i
-                  ></div>
-
-                  <a href="">Prova gratis per 30 giorni</a>
-                  <p>oppure aquista ora</p>
-                  <hr />
-                  <h4>Punti Salienti del piano</h4>
-                  <p>
-                    <i class="fa-solid fa-check"></i>Invia fino a 100 GB con
-                    Dropbox Transfer
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-check"></i>Cartelle online su
-                    dispositivi mobili
-                  </p>
-            </article>
-            </div>
-        </section> 
-      </div>
       <!-- /Card -->
 
        <!-- Enterprise  -->
-      <div class="container">
-        <div class="container-user">Team</div>
-          <div class="container-enterprise">
+      <div class="enterprise-section">
+        <div class="container-company-enterprise"><i class="fa-solid fa-building"></i> Team</div>
+        <div class="container-enterprise">
             <div class="div-left">
               <h2>Enterprise</h2>
-              <h3>Contatta l'ufficio vendite per i prezzi</h3>
+              <strong><p>Contatta l'ufficio vendite per i prezzi</p></strong>
               <p>Soluzioni personalizzati e supporto su misura per aiutare i proffessionisti IT nella gestione su qualsiasi scala</p>
-            </div>
-            <div class="dir-right">
-              <a href="">Contatta l'ufficio vendite</a>
+              </div>
+              <div class="div-right">
+              <a class="a" href="">Contatta l'ufficio vendite</a>
             </div>
           </div>
-        </div>
+      </div>
+      
+
+       
         <!-- /Enterprise  -->
 
         <!-- Partnership -->
         <div class="container">
-          <div class="partnership">
-            <div class="partner"><img class="partner-img" src="img/partner.png" alt=""></div>
+          <div class="partnership mt">
+            <div class="partner"><img class="partner-img" src="img/partner.png" alt="partner"></div>
             <div class="partner-text">
-              <h2>Entra in contatto con un partner Dropbox</h2>
+              <h3>Entra in contatto con un partner Dropbox</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi sapiente libero, architecto esse, neque quos nam ipsam minima enim molestiae hic minus ad! Quisquam voluptatem itaque facilis dicta esse corporis.</p>
               <p class="find">Trova un partner</p>
             </div>
@@ -210,25 +224,25 @@
           <section id="business-section">
             <h2 class="title-busines">Esegui più operazioni con Dropbox Business</h2>
 
-            <div class="flex-container">
+            <div class="flex-container-business">
               <div class="more-operation">
                 <img class="partner-img" src="img/business-feature-switching-tools.png" alt="">
                 <h4>Passa di meno da uno strumento all'laltro</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus quisquam adipisci fugiat deleniti, ipsum sapiente atque obcaecati porro vel voluptate sed! Iusto eos, fugiat fuga cumque et saepe quisquam accusamus esse, porro error earum ea aliquam qui adipisci eum?</p>
               </div>
-              <div class="more-operation"><img class="partner-img" src="img/business-feature-switching-tools.png" alt="">
+              <div class="more-operation"><img class="partner-img" src="img/business-feature-coordinate-it.png" alt="">
                 <h4>Passa di meno da uno strumento all'laltro</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus quisquam adipisci fugiat deleniti, ipsum sapiente atque obcaecati porro vel voluptate sed! Iusto eos, fugiat fuga cumque et saepe quisquam accusamus esse, porro error earum ea aliquam qui adipisci eum?</p></div>
-              <div class="more-operation"><img class="partner-img" src="img/business-feature-switching-tools.png" alt="">
+              <div class="more-operation"><img class="partner-img" src="img/business-feature-security.png" alt="">
                 <h4>Passa di meno da uno strumento all'laltro</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus quisquam adipisci fugiat deleniti, ipsum sapiente atque obcaecati porro vel voluptate sed! Iusto eos, fugiat fuga cumque et saepe quisquam accusamus esse, porro error earum ea aliquam qui adipisci eum?</p></div>
-              <div class="more-operation"><img class="partner-img" src="img/business-feature-switching-tools.png" alt="">
+              <div class="more-operation"><img class="partner-img" src="img/business-feature-multi-device.png" alt="">
                 <h4>Passa di meno da uno strumento all'laltro</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus quisquam adipisci fugiat deleniti, ipsum sapiente atque obcaecati porro vel voluptate sed! Iusto eos, fugiat fuga cumque et saepe quisquam accusamus esse, porro error earum ea aliquam qui adipisci eum?</p></div>
-              <div class="more-operation"><img class="partner-img" src="img/business-feature-switching-tools.png" alt="">
+              <div class="more-operation"><img class="partner-img" src="img/business-feature-send-files-it.png" alt="">
                 <h4>Passa di meno da uno strumento all'laltro</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus quisquam adipisci fugiat deleniti, ipsum sapiente atque obcaecati porro vel voluptate sed! Iusto eos, fugiat fuga cumque et saepe quisquam accusamus esse, porro error earum ea aliquam qui adipisci eum?</p></div>
-              <div class="more-operation"><img class="partner-img" src="img/business-feature-switching-tools.png" alt="">
+              <div class="more-operation"><img class="partner-img" src="img/business-feature-integrations-it.png" alt="">
                 <h4>Passa di meno da uno strumento all'laltro</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus quisquam adipisci fugiat deleniti, ipsum sapiente atque obcaecati porro vel voluptate sed! Iusto eos, fugiat fuga cumque et saepe quisquam accusamus esse, porro error earum ea aliquam qui adipisci eum?</p></div>
             </div>
@@ -238,66 +252,143 @@
 
         <!-- User-number -->
         <div class="container">
-          <div class="user-numbers">
-              <h1 class="user-pad">Più di 500.000 team utilizano Dropbox Business</h1>
-              <a href=""><link rel="stylesheet" href="">Scopri di più sui nostri clienti</a>
+          <div class="user-numbers ">
+              <h2 class="user-pad">Più di 500.000 team utilizano Dropbox Business</h2>
+              <a class="a" href=""><link rel="stylesheet" href="">Scopri di più sui nostri clienti</a>
           </div>
         </div>
         <!-- /User-number -->
 
-        <!-- Container-Brand -->
+        <!-- Container-Brands -->
         <div class="container-companies">
-            <div class="container-1">
-                <div class="brand-1">
-                  <img class="img-brand" src="img/designit.svg" alt="">
-                </div> 
-                <div class="brand-2">
-                  <img class="img-brand" src="img/arizona_state_university.svg" alt="">
+            <div class="container-brands">
+                <div class="brand bg-green">
+                  <img  src="img/designit.svg" alt="">
                 </div>
-                <div class="brand-3">
-                  <img class="img-brand" src="img/university_of_florida.svg" alt="">
+                <div class="brand bg-brown">
+                  <img  src="img/arizona_state_university.svg" alt="">
                 </div>
-                <div class="brand-4">
-                  <img class="img-brand"src="img/topps.svg" alt="">
+                <div class="brand bg-blue">
+                  <img  src="img/university_of_florida.svg" alt="">
+                </div>
+                <div class="brand bg-light-red">
+                  <img src="img/topps.svg" alt="">
                 </div>
             </div>
-            <div class="container-2">
-              <img class="img-brand-big" src="/img/designit.svg" alt="">
-              <hr>
+            <div class="container-brands-middle">
+              <img class="mb" src="./img/designit.svg" alt="">
+              <hr class="mb">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a asperiores deleniti iusto neque, totam fugit quaerat, id dolorem excepturi rem perspiciatis nihil vel aliquid pariatur, voluptatem eos eveniet voluptate fuga suscipit reiciendis amet ipsa commodi. Aspernatur eligendi accusantium libero. Dolore, totam cum? Culpa asperiores architecto, ab impedit quisquam numquam!</p>
+              <p>Morten Thomsen, Global IT Lead</p>
             </div>
-            <div class="container-3">
-              <div class="brand-5">
-                <img class="img-brand" src="img/world_bicycle_relief.svg" alt="">
+            <div class="container-brands">
+              <div class="brand bg-red">
+                <img src="img/world_bicycle_relief.svg" alt="">
               </div>
-              <div class="brand-6">
-                <img class="img-brand" src="img/hearst_corp.svg" alt="">
+              <div class="brand bg-light-blue">
+                <img src="img/hearst_corp.svg" alt="">
               </div>
-              <div class="brand-7">
-                <img class="img-brand" src="img/lonely_planet.svg" alt="">
+              <div class="brand bg-dark-blue">
+                <img src="img/lonely_planet.svg" alt="">
               </div>
-              <div class="brand-8">
-                <img class="img-brand" src="img/clear_channel.svg" alt="">
+              <div class="brand bg-yellow">
+                <img src="img/clear_channel.svg" alt="">
               </div>
             </div>
         </div>
-      </div>
-      
-
-
-
+        <div class="container-companies bg-light-blue">
+          <div class="container mb mt-s">
+           <div class="div-left">
+            <h2>Porta Dropbox Bussines </h2>
+            <h2>nella Tua Azienda</h2>
+           </div>
+           <div class="div-right">
+            <button>Inizia la tua prova gratuita</button>
+           </div> 
+          </div>
+        </div>
+        <div class="container-faq mt">
+          <h2>Domande Frequenti</h2>
+          <div class="faq pt mt">
+            <b><p>Quale è la differenza tra Dropbox Business Standard e Dropbox Business Advancede?</p></b> <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq pt">
+            <b><p>Quale è la differenza tra Dropbox Business Standard e Dropbox Business Advancede?</p></b> <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq pt bb">
+            <b><p>Quale è la differenza tra Dropbox Business Standard e Dropbox Business Advancede?</p></b> <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
         <!-- /Container-Brand -->
+        <!-- FOOTER -->
+        <footer>
+          <div class="container-companies bg-black">
+            <div class="container-footer">
+              <div class="description">
+                <h4>Dropbox</h4>
+                <p>Aplicazioni Desktop</p>
+                <p>Perché Dropbox</p>
+                <p>Piani</p>
+                <p>Sicurezza</p>
+                <p>Funzioni</p>
+                <div class="footer-down">
+                  <hr class="hr">
+                  <div class="ft-flex">
+                    <div><i class="fa-solid fa-earth-europe"></i></div>
+                    <div><p>Italiano </p></div>
+                    <div><i class="fa-solid fa-caret-up"></i></div>
+                  </div>              
+                </div>
+              </div>
+              <div class="description">
+                <h4>Dropbox</h4>
+                <p>Aplicazioni Desktop</p>
+                <p>Perché Dropbox</p>
+                <p>Piani</p>
+                <p>Sicurezza</p>
+                <p>Funzioni</p>
+              </div>
+              <div class="description">
+                <h4>Dropbox</h4>
+                <p>Aplicazioni Desktop</p>
+                <p>Perché Dropbox</p>
+                <p>Piani</p>
+                <p>Sicurezza</p>
+                <p>Funzioni</p>
+              </div>
+              <div class="description">
+                <h4>Dropbox</h4>
+                <p>Aplicazioni Desktop</p>
+                <p>Perché Dropbox</p>
+                <p>Piani</p>
+                <p>Sicurezza</p>
+                <p>Funzioni</p>
+              </div>
+              <div class="description">
+                <h4>Dropbox</h4>
+                <p>Aplicazioni Desktop</p>
+                <p>Perché Dropbox</p>
+                <p>Piani</p>
+                <p>Sicurezza</p>
+                <p>Funzioni</p>
+              </div>
+            </div>
+            
+          </div>
+        </footer>
+        <!-- /FOOTER -->
       </main>
     </body>
-  </html>
-
+    </html>
+    
+    <!-- <div class="ft-description"> -->
+    <!-- </div> -->
 
 
             
             
 
-              
-          
+                      
       
         
            
